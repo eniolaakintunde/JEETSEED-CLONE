@@ -1,0 +1,85 @@
+
+body {
+    margin: 0;
+    font-family: "Altone","inter","Lucida sans",Calibri,Tahoma,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px ;
+}
+ul{
+    list-style: none;
+}
+p{
+    font-size: 15px;
+    font-weight: bolder;
+}
+h1{
+    font-weight: bold;
+}
+
+img{
+    max-width: 20%;
+}
+.container{
+    margin: auto;
+    max-width: 1100px;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+.nav-links li{
+    cursor: pointer;
+    color: hsl(236, 13%, 42%);
+}
+.nav-links li:hover{
+   color: black; 
+}  
+
+.nav-links button{
+    width: 150px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-weight: 700;
+    color:  hsl(36, 100%, 99%);
+    border: 2px;
+    background-color: green;
+}
+
+.nav-links button:hover{
+    background-color: darkgreen;
+}
+.box button{
+    cursor: pointer;
+    color:  hsl(36, 100%, 99%);
+    background-color: green;
+    box-sizing: border-box;
+}
+
+.box button:hover{
+    background-color: darkgreen;
+}
+.box{
+    width: 500px;
+}
+.input{
+    display: flex; 
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: right;
+    margin-top: auto;
+}
+
